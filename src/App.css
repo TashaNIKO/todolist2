@@ -1,38 +1,53 @@
+body {
+  background-color: rgb(175, 126, 221);
+}
 .App {
-  text-align: center;
+background-color: rgb(224, 142, 220);
+min-height: 80vh;
+width: 400px;
+margin: 20px auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.crossed {
+text-decoration: line-through 2px red;
+background-color: rgb(116, 219, 223);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 28px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add {
+  background-color: chartreuse;
+  margin-top: 5px;
+}
+.del {
+  background-color: crimson;
+  margin-bottom: 5px;
+}
+.btn {
+  padding: 8px;
+  border: none;
+  width: 70%;
+  color: blanchedalmond;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Source Serif Pro', serif;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 5px;
+  font-size: 22px;
+  border-color: blueviolet;
+  font-family: 'Source Serif Pro', serif;
+}
+img {
+  border-radius: 45%;
 }
